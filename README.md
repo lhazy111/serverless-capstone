@@ -29,7 +29,9 @@ Two buttons on the right are used to : upload an image or delete the note.
 To run a client application download a zip file, unzip and run following commands:
 
 cd client
+
 npm install
+
 npm run start
 
 This should start a development server with the React application that will interact with the Note Collector application.
