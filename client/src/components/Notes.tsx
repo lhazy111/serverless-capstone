@@ -101,7 +101,6 @@ export class Notes extends React.PureComponent<NotesProps, NotesState> {
   render() {
     return (
       <div>
-        <Header as="h2">{this.state.newNoteContent}</Header>
 
         {this.renderCreateNoteInput()}
 
