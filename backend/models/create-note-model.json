@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "notes",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "attachment": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "content",
+    "createdDate",
+    "attachment"
+  ],
+  "additionalProperties": false
+}
